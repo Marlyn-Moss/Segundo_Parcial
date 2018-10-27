@@ -23,7 +23,7 @@ public class NuevoJugadorActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (txtNombre.getText().length() != 0){
-            Intent retornarDatos = new Intent(this,PrincipalActivity.class);
+            Intent retornarDatos = new Intent();
             retornarDatos.putExtra("Nombre",this.txtNombre.getText().toString());
             setResult(RESULT_OK,retornarDatos);
             finish();
