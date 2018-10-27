@@ -22,9 +22,9 @@ public class PrincipalActivity extends AppCompatActivity {
 
         Jugador = null;
         puntajes = new ArrayList<Puntaje>();
-        puntajes.add(new Puntaje("----",0));
-        puntajes.add(new Puntaje("----",0));
-        puntajes.add(new Puntaje("----",0));
+        puntajes.add(new Puntaje("-----",0));
+        puntajes.add(new Puntaje("-----",0));
+        puntajes.add(new Puntaje("-----",0));
     }
 
     public void onClickNuevo(View view){
